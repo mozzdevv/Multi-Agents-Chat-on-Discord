@@ -1,0 +1,18 @@
+{
+  "name": "discord-deepseek-bots",
+  "version": "1.0.0",
+  "description": "Discord bots powered by DeepSeek API",
+  "main": "bot.js",
+  "scripts": {
+    "start:ppm": "node bot.js ppm",
+    "start:msm": "node bot.js msm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "openai": "^4.24.1"
+  }
+}
